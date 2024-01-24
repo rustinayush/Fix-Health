@@ -1,0 +1,56 @@
+.contact-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.contact-us-section {
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.Contact-download {
+  background-color: rgb(147, 181, 195);
+  padding: 50px;
+  text-align: center;
+}
+
+.Contact-download h2,
+.contact-us-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.Contact-download p,
+.contact-us-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.download-button {
+  background-color: #395a7d;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.download-button:hover {
+  background-color: #537497;
+}
+
+.contact-details {
+  color: #fff;
+}
+
+.phone-number {
+  font-weight: bold;
+  font-size: 20px;
+}

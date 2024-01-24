@@ -1,0 +1,61 @@
+.physio-treatment-section {
+  margin-bottom: 30px;
+}
+
+.methods-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.method {
+  width: 400px;
+  padding: 20px;
+  margin: 20px;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  text-align: center;
+}
+.method:hover {
+  transform: scale(1.05);
+}
+.method img {
+  max-width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+.method:hover img {
+  transform: scale(1.1);
+}
+
+.method h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.method p {
+  font-size: 16px;
+  color: #555;
+}
+
+.read-more-button {
+  background-color: rgb(51, 98, 118);
+  color: #fff;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.read-more-button:hover {
+  background-color: rgb(147, 181, 195);
+}
+
+h2 {
+  color: white;
+}

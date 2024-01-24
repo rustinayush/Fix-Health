@@ -1,0 +1,36 @@
+.faq-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: grey;
+  margin-top: -60px;
+}
+
+.accordion-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 15px;
+  display: none;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+  background-color: #f9f9f9;
+}
